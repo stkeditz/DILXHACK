@@ -1,0 +1,72 @@
+{
+    "name": "ᴅɪʟ ʜᴀᴄᴋ ʙᴏᴛ",
+    "description": "A Telegram Pyrogram + Telethon Session DILXHACK Bot, written in Python with Pyrogram.",
+    "logo": "https://graph.org/file/5a7aec39ef0c91e6b03ef.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "ɢᴇᴛ ᴀᴘɪ ɪᴅ https://my.telegram.org",
+        "value": "14050586",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "ɢᴇᴛ ᴀᴘɪ ʜᴀsʜ https://my.telegram.org",
+        "value": "42a60d9c657b106370c79bb0a8ac560c",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "ɢᴇᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ ʙᴏᴛ ғᴀᴛʜᴇʀ",
+        "value": "",
+        "required": true
+      },
+      "MONGO_URL": {
+        "description": "ɢᴇᴛ ᴍᴏɴɢᴏᴅʙ ғʀᴏᴍ https://cloud.mongodb.com.ɪғ ᴜ ᴅᴏɴᴛ ʜᴀᴠᴇ ᴜsᴇ ᴛʜɪs ғɪʟʟʟᴇᴅ ᴍᴏɴɢᴏ.",
+        "value": "mongodb+srv://sagar121:sagar121@sagar1.ql1togl.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "SUDOERS": {
+        "description": "ᴛᴏ ᴀᴅᴅ ᴍᴏʀᴇ ᴘᴇᴏᴘʟᴇ ɪɴ ᴄᴏʟʟᴀʙ.",
+        "value": "5465943450",
+        "required": true
+      },
+      "MUST_JOIN": {
+        "description": "ᴍᴜsᴛ ᴊᴏɪɴ).",
+        "value": "alonegroup121",
+        "required": false
+      },
+      "DISABLED": {
+        "description": "Menu names which you want to disable, without space (Example: a b j)",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "ғɪʟʟ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ɪᴅ -100).",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "basic"
+          }
+      },
+      "stack": "container"
+  }
