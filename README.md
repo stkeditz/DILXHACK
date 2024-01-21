@@ -9,7 +9,7 @@
 <br>
     <img src="https://img.shields.io/github/repo-size/stkeditz/DILXHACK?style=for-the-badge" alt="Repository Size">
     <img src="https://img.shields.io/github/contributors/stkeditz/DILXHACK?style=for-the-badge" alt="Contributors">
-    <img src="https://img.shields.io/github/issues/stkeditz/DILXHACK-BOT?style=for-the-badge" alt="Issues">
+    <img src="https://img.shields.io/github/issues/stkeditz/DILXHACK?style=for-the-badge" alt="Issues">
 </p>
 
 ## ᴄᴏɴғɪɢ ᴠᴀʀs
